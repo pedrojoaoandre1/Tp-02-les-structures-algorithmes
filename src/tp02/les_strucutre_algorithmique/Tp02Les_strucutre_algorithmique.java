@@ -22,15 +22,31 @@ public class Tp02Les_strucutre_algorithmique {
         
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("Quel est le mot de passe: ");
+       /* System.out.println("Quel est le mot de passe: ");
         String motdepasse = sc.nextLine();
 
         while(!motdepasse.equals("admin123")){
             System.out.println("Mot de passe incorrect, veuillez réessayer:");
             motdepasse = sc.nextLine();
         }
-        System.out.println("Utilisateur valide");
-
+        System.out.println("Utilisateur valide");*/
+       
+       System.out.println("1");
+       System.out.println("2");
+       System.out.println("0");
+       System.out.println("Que choisissez-vous entre 0 a 2?: ");
+       int choix = sc.nextInt();
+       
+       switch(choix){
+           case 1:
+               System.out.println("Bonjour");
+               break;
+           case 2:
+               System.out.println("Au revoir");
+               break;
+           case 0:
+               break;
+       }
     }
     
 }
